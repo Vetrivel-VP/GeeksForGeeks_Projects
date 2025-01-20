@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .form-label {
+    @apply text-sm text-gray-600 mb-2;
+  }
+
+  .form-input {
+    @apply p-3 text-sm rounded border border-gray-300 focus:border-blue-500 focus:outline-none;
+  }
+
+  .form-error {
+    @apply text-red-500 text-xs mt-1;
+  }
+}
